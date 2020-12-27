@@ -1,0 +1,20 @@
+/* configurations */
+
+#define WIFI_SSID "ssid"
+#define WIFI_PASS "secret"
+#define WIFI_HOST "MADqtt"
+
+#define MQTT_QOS 1
+#define MQTT_TOPIC "madqtt"
+#define MQTT_BROKER_HOST "localhost"
+#define MQTT_BROKER_PORT 1883
+#define MQTT_BROKER_USER "mqttuser"
+#define MQTT_BROKER_PASS "mqttpass"
+
+#define SERIAL_SPEED 115200
+
+#define NUM_DEVICES 2
+DEVICE DEVICES[NUM_DEVICES] = {
+  {"ATV01", D0, "NC"},
+  {"ATV02", D1, "NC"}
+};
